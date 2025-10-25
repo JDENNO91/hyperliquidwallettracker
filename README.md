@@ -47,8 +47,19 @@ Monitor Hyperliquid wallet addresses in real-time, automatically detecting and a
 
 ### Installation
 
+**Option 1: Automated Installation (Recommended)**
+```bash
+# Download and run the installation script
+curl -sSL https://raw.githubusercontent.com/JDENNO91/hyperliquidwallettracker/main/install.sh | bash
+
+# Or with virtual environment
+curl -sSL https://raw.githubusercontent.com/JDENNO91/hyperliquidwallettracker/main/install.sh | bash -s -- --venv
+```
+
+**Option 2: Manual Installation**
 ```bash
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ### CLI Usage
